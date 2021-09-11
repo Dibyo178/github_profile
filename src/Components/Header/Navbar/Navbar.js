@@ -8,6 +8,7 @@ const Navbar = ({ repo, setRepo }) => {
 
   console.log(repo);
   const handleChange = (e) => {
+    inputSearch(e.target.value);
     e.preventDefault();
   };
 
