@@ -35,7 +35,7 @@ const Navbar = ({ repo, setRepo }) => {
               type="text"
               className="form-control"
               placeholder="UserName"
-              style={{ width: "200px", margin: "10px" }}
+              style={{ width: "200px", marginLeft: "10px" }}
             />
           </div>
         </div>
@@ -50,14 +50,16 @@ const Navbar = ({ repo, setRepo }) => {
         <div className="header ml-auto">
           <h3 style={{ color: "white" }}>{name}</h3>
           {/* <img src="https://avatars.githubusercontent.com/u/39717099?v=4" */}
+          
           <img
             src={avatar_url}
             width="50px"
             height="50px"
-            style={{ marginLeft: "50px" }}
+            style={{ marginLeft: "20px" }}
             alt=""
           />
-        </div>
+        
+          </div>
       </nav>
     </div>
   );
